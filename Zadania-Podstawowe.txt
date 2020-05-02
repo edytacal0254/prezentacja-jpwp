@@ -1,0 +1,76 @@
+Zadanie 1.
+	Na podstawie zamieszczonego niżej szkieletu zrealizuj kod implementujący stage-mainStage, scenę-mainScene oraz przycisk primaryButton. Ustaw wymiary sceny na 600x600 pixeli.
+	Guzik powinien znajdować się na środku ekranu. Pamiętaj, że do konstruktora sceny należy przekazać parametr root - niech będzie to kontener AnchorPane. PRAWIE wszystkie pola 
+	potrzebne do wykonania zadania pierwszego oraz dalszych zostały juz zadeklarowane.
+
+	! ! ! UWAGA ! ! !
+		Chcąc zobaczyć praktyczne działanie napisanego kodu należy napisać go w klasie Main.java, która jest generowana automatycznie przy tworzeniu nowego projektu javaFX.
+		W przypadku pisania nowej klasy, w klasie Main.java należy utworzyć nowy obiekt pisanej przez nas klasy i do pola primaryStage przypisać stage stworzony przez nas.
+
+public class Menu
+{
+    private Stage mainStage;
+    private Scene primaryScene,	secondaryScene;
+    private AnchorPane primaryPane, secondaryPane;
+    private Button primaryButton, secondaryButton;
+
+    private final static String PRIMARY_SCENE_IMAGE_PATH=" <ŚCIEŻKA DO PLIKU> ";
+    private final static String SECONDARY_SCENE_IMAGE_PATH="  <ŚCIEŻKA DO PLIKU>  ";
+    private Image primarySceneImage,secondarySceneImage;
+    private BackgroundImage primarySceneBackgroundImage,secondarySceneBackgroundImage;
+
+
+
+    public Menu()
+    {
+        createPrimaryScene();
+        createSecondaryScene();
+        createButtons();
+        ???
+	???
+	???
+    }
+
+    private void createPrimaryScene()
+    {
+        //creating primaryScene
+        ???
+        ???
+        //creating and setting primaryScene Background
+        ???
+        ???
+       	???
+    }
+    private void createSecondaryScene()
+    {
+        //creating secondaryScene
+        ???
+        ???
+        //creating and setting secondaryScene Background
+        ???
+        ???
+        ???
+    }
+    private void createButtons()
+    {
+        //creating and setting buttons
+        ???
+        ???
+        ???
+        ???
+        ???
+        ???
+        ???
+        ???
+        
+    }
+}
+
+
+Zadanie 2.
+	Jako tło primaryScene ustaw plik png o nazwie "primarySceneImage.png". Skorzystaj z następujacych klas: Image, BackgroundImage, Background. Opis metod z łatwością można znaleźć w
+	dokumentach Oracle.
+
+Zadanie 3.
+	Analogicznie do zadań 1 oraz 2 utwórz drugą scenę - "secondaryScene". Jako tło ustaw obrazek "secondaryScene.png". Następnie dopisz funkcjonalność pozwalającą na zmieniane sceny.
+	Po kliknięciu w primaryButton primaryScene ma się zmienić na secondaryScene. Analogicznie po kliknięciu w drugi przycisk ma nastąpić przejście do sceny początkowej.

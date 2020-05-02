@@ -1,0 +1,18 @@
+W kodzie naszego projektu w klasie GameViewManager w linii 284 brakuje fragmentu kodu implementującego magazynek z pociskami samochodu. Dopisz brakujący kod.
+Dokładniejsza instrukcja znajduje się wewnątrz metody, którą należy uzupełnić. Następnie, jeśli metoda została zaimplementowana poprawnie i program działa prawidłowo, wykonaj
+poniższe punkty:
+
+	1. Zagraj kilka rund i napisz jaki wynik udało ci się osiągnąć :)
+
+	2. Opisz działanie możliwych do zebrania bonusów:
+		a)zielona strzałka
+		b)niebieska strzałka
+		c)złota gwiazdka
+
+	3. Zajrzyj do kodu, znajdź i podaj dokładne wartości efektów wykonywanych przy zbieraniu bonusów.
+
+
+
+
+
+	
