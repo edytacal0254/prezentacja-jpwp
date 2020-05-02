@@ -285,7 +285,7 @@ public class GameViewManager
     {
         //Utworz ArrayListe przechowujaca 5 pociskow, ktore beda mozliwe do jednoczesnego wystrzelenia
         //(jednoczesnie na ekranie moze byc widocznych 5 lecących pociskow)
-        //w tym celu utworz zainicjalizuj pole "ammoBox" będące ArrayListą
+        //w tym celu zainicjalizuj pole "ammoBox" będące ArrayListą
         //następnie wypełnij ją obiektami klasy ImageView
         //Nie zapomnij dodać obiektów do glownego AnchorPana tak aby pociski byly widoczne
 
